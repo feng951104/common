@@ -14,10 +14,8 @@ import java.util.List;
  * @date 2019/4/27
  */
 public class ConvertManagerImpl implements ConvertManager {
-
     @Resource
     private DozerBeanMapper mapper;
-
     @Override
     public <T> T tran(Object b, Class<T> c) {
         T f = mapper.map(b, c);
