@@ -14,7 +14,7 @@
     <artifactId>api-common</artifactId>
     <packaging>jar</packaging>
 
-
+艰苦户籍科根据客户共i快乐就好
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
